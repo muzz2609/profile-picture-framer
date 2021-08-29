@@ -23,11 +23,12 @@
           <img class="design" src="frames/frame-1.png" data-design="1" />
           <img class="design" src="frames/frame-2.png" data-design="2" />
         </div>
+         <h2> </h2>
         <div id="preview">
           <div id="crop-area">
             <img src="http://demos.subinsb.com/isl-profile-pic/image/person.png" id="profile-pic" />
           </div>
-          <img src="frames/frame-1.png" id="fg" data-design="0" />
+          <img src="frames/frame-0.png" id="fg" data-design="0" />
         </div>
                 <h2>Step 3: Download your profile pic</h2>
         <p>
