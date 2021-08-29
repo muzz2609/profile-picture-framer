@@ -14,7 +14,7 @@
     <div id="wrapper">
       <div id="content">
         <h1>Create your own vaccine meme!</h1>
-        <p>Support Kerala Blasters by changing your profile picture</p>
+        <p>Join the #vaxsquad by changing your profile picture</p>
         <div id="preview">
           <div id="crop-area">
             <img src="http://demos.subinsb.com/isl-profile-pic/image/person.png" id="profile-pic" />
