@@ -13,8 +13,8 @@
   <body>
     <div id="wrapper">
       <div id="content">
-        <h1>Create your own vaccine meme!</h1>
-        <p>Join the #vaxsquad by changing your profile picture</p>
+        <h1>Join the #vaxsquad by changing your profile picture</h1>
+        <p>Create your own vaccine meme!</p>
         <div id="preview">
           <div id="crop-area">
             <img src="http://demos.subinsb.com/isl-profile-pic/image/person.png" id="profile-pic" />
@@ -23,11 +23,9 @@
         </div>
         <p>
           <button id="download" disabled>Download Profile Picture</button>
-          <button id="fb-set-pic" disabled>Set As <b>Facebook</b> Profile Picture</button>
         </p>
         <h2>Upload</h2>
         <input type="file" name="file" onchange="onFileChange(this)">
-        <div id="status"></div>
         <h2>Design</h2>
         <div id="designs">
           <img class="design active" src="frames/frame-0.png" data-design="0" />
