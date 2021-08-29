@@ -13,7 +13,7 @@
   <body>
     <div id="wrapper">
       <div id="content">
-        <h1>Support Kerala Blasters!</h1>
+        <h1>Create your own vaccine meme!</h1>
         <p>Support Kerala Blasters by changing your profile picture</p>
         <div id="preview">
           <div id="crop-area">
