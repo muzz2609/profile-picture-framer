@@ -8,7 +8,7 @@
   <body>
     <div id="wrapper">
       <div id="content">
-        <h1><a href="http://demos.sim/isl-profile-pic/">Thanks for joining #vaxsquad</a></h1>
+        <h1>Thanks for joining #vaxsquad</h1>
         <p>Make this your profile picture to spread the word!</p>
         <?php
         $url = htmlspecialchars($_GET["i"]);
