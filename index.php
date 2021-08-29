@@ -16,6 +16,7 @@
         <h1>Join the #vaxsquad by changing your profile picture</h1>
         <p>Create your own vaccine meme!</p>
                 <h2>Step 1: Upload your vaccine selfie</h2>
+        <button style="display:block;width:120px; height:30px;" onclick="document.getElementById('getFile').click()">Your text here</button>
         <input type="file" name="file" onchange="onFileChange(this)">
         <h2>Step 2: Choose your Design</h2>
         <div id="designs">
