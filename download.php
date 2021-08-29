@@ -13,7 +13,7 @@
         <?php
         $url = htmlspecialchars($_GET["i"]);
         if(isset($_GET["i"]))
-          echo "<a href='". $url ."' download='kerala-blasters-profile'><img src='". $url ."' /></a>";
+          echo "<a href='". $url ."' download='wc-vaxsquad-profile'><img src='". $url ."' /></a>";
         else
           header("Redirect: index.php");
         ?>
