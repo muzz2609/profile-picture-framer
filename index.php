@@ -15,23 +15,24 @@
       <div id="content">
         <h1>Join the #vaxsquad by changing your profile picture</h1>
         <p>Create your own vaccine meme!</p>
+                <h2>Step 1: Upload your vaccine selfie</h2>
+        <input type="file" name="file" onchange="onFileChange(this)">
+        <h2>Step 2: Choose your Design</h2>
+        <div id="designs">
+          <img class="design active" src="frames/frame-0.png" data-design="0" />
+          <img class="design" src="frames/frame-1.png" data-design="1" />
+          <img class="design" src="frames/frame-2.png" data-design="2" />
+        </div>
         <div id="preview">
           <div id="crop-area">
             <img src="http://demos.subinsb.com/isl-profile-pic/image/person.png" id="profile-pic" />
           </div>
           <img src="frames/frame-1.png" id="fg" data-design="0" />
         </div>
+                <h2>Step 3: Download your profile pic</h2>
         <p>
           <button id="download" disabled>Download Profile Picture</button>
         </p>
-        <h2>Upload</h2>
-        <input type="file" name="file" onchange="onFileChange(this)">
-        <h2>Design</h2>
-        <div id="designs">
-          <img class="design active" src="frames/frame-0.png" data-design="0" />
-          <img class="design" src="frames/frame-1.png" data-design="1" />
-          <img class="design" src="frames/frame-2.png" data-design="2" />
-        </div>
         <?php
         require_once __DIR__ . "/footer.php";
         ?>
