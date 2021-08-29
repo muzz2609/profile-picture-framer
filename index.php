@@ -29,7 +29,7 @@
          <h2> </h2>
         <div id="preview">
           <div id="crop-area">
-            <img src="http://demos.subinsb.com/isl-profile-pic/image/person.png" id="profile-pic" />
+            <img src="https://github.com/muzz2609/profile-picture-framer/blob/master/images/person.png" id="profile-pic" />
           </div>
           <img src="frames/frame-0.png" id="fg" data-design="0" />
         </div>
