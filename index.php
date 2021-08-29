@@ -22,6 +22,7 @@
           <img class="design active" src="frames/frame-0.png" data-design="0" />
           <img class="design" src="frames/frame-1.png" data-design="1" />
           <img class="design" src="frames/frame-2.png" data-design="2" />
+          <img class="design" src="frames/frame-3.png" data-design="3" />         
         </div>
          <h2> </h2>
         <div id="preview">
