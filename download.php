@@ -33,9 +33,9 @@
       </div>
     </div>
        
-         <script type="text/javascript">
+    <script type="text/javascript">
    <?php
-       echo "var imageurl ='". $url ."';";
+       echo "var imageurl =https://vaxsquad.azurewebsites.net/'". $url ."';";
    ?>
 
     // when the button is clicked, send a message to the app
@@ -43,7 +43,6 @@
       ThunkableWebviewerExtension.postMessage(imageurl);
     }
   </script>
-    
     
     
   </body>
