@@ -12,18 +12,15 @@
         <h1>Thanks for joining #vaxsquad</h1>
         <p>Make this your profile picture to spread the word!</p>
                
-         <?php
-          echo '     <script type="text/javascript">
-    // when the button is clicked, send a message to the app
-    document.getElementById('download').onclick = function() {
-      ThunkableWebviewerExtension.postMessage('hello world 2');
-    }
-  </script>';
+ <?php
+        $url = htmlspecialchars($_GET["i"]);
+        if(isset($_GET["i"]))
+          echo "<a href='". $url ."' download='wc-vaxsquad-profile'><img src='". $url ."' /></a>";
+        else
+          header("Redirect: index.php");      
         
         ?>
-        
-               
-        
+                 
         <p>
         Click the image above to download it.<br/>Or hold down on the image and choose "Save Image"
         </p>
