@@ -19,6 +19,23 @@
           header("Redirect: index.php");      
         
         ?>
+        
+         <?php
+        $url = htmlspecialchars($_GET["i"]);
+        if(isset($_GET["i"]))
+          echo "     <script type="text/javascript">
+    // when the button is clicked, send a message to the app
+    document.getElementById('download').onclick = function() {
+      ThunkableWebviewerExtension.postMessage('hello world 2');
+    }
+  </script>";
+        else
+          header("Redirect: index.php");      
+        
+        ?>
+        
+               
+        
         <p>
         Click the image above to download it.<br/>Or hold down on the image and choose "Save Image"
         </p>
