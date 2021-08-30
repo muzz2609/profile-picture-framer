@@ -33,5 +33,18 @@
       </div>
     </div>
        
+         <script type="text/javascript">
+   <?php
+       echo "var imageurl ='". $url ."';";
+   ?>
+
+    // when the button is clicked, send a message to the app
+    document.getElementById('download').onclick = function() {
+      ThunkableWebviewerExtension.postMessage(imageurl);
+    }
+  </script>
+    
+    
+    
   </body>
 </html>
