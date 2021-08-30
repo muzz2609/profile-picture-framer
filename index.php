@@ -9,6 +9,7 @@
     <script src="js/croppie.min.js" async="async"></script>
     <script src="js/app.js" async="async"></script>
     <script src="js/fb.js" async="async"></script>
+    <script src="https://thunkable.github.io/webviewer-extension/thunkableWebviewerExtension.js" type="text/javascript"></script>
   </head>
   <body>
     <div id="wrapper">
@@ -43,4 +44,10 @@
       </div>
     </div>
   </body>
+  <script type="text/javascript">
+    // when the button is clicked, send a message to the app
+    document.getElementById('download').onclick = function() {
+      ThunkableWebviewerExtension.postMessage('hello world');
+    }
+  </script>
 </html>
