@@ -35,7 +35,7 @@
        
     <script type="text/javascript">
    <?php
-       echo "var imageurl ='"https://vaxsquad.azurewebsites.net/"'.'". $url ."';";
+       echo "var imageurl ='https://vaxsquad.azurewebsites.net/'.'". $url ."';";
    ?>
 
     // when the button is clicked, send a message to the app
