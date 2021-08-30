@@ -13,21 +13,10 @@
         <p>Make this your profile picture to spread the word!</p>
         <?php
         $url = htmlspecialchars($_GET["i"]);
-        if(isset($_GET["i"])){
+        if(isset($_GET["i"]))
           echo "<a href='". $url ."' download='wc-vaxsquad-profile'><img src='". $url ."' /></a>";
         else
-          header("Redirect: index.php");
-        }
-          
-        if(1+1 == 2){ 
-        echo "     <script type="text/javascript">
-    // when the button is clicked, send a message to the app
-    document.getElementById('download').onclick = function() {
-      ThunkableWebviewerExtension.postMessage('hello world 2');
-    }
-  </script>"; 
-    } 
-        
+          header("Redirect: index.php");      
         
         ?>
         <p>
