@@ -3,6 +3,7 @@
   <head>
     <title>Download Profile Picture | #Vaxsquad </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://thunkable.github.io/webviewer-extension/thunkableWebviewerExtension.js" type="text/javascript"></script>
     <link href="css/style.css" rel="stylesheet" async="async" />
   </head>
   <body>
@@ -16,6 +17,38 @@
           echo "<a href='". $url ."' download='wc-vaxsquad-profile'><img src='". $url ."' /></a>";
         else
           header("Redirect: index.php");
+        
+        if(isset($_GET["i"]))
+          echo "
+            <script type="text/javascript">
+    // when the button is clicked, send a message to the app
+    document.getElementById('download').onclick = function() {
+      ThunkableWebviewerExtension.postMessage('$url');
+    }
+
+    // when we get a message from the app, display it on the page
+    ThunkableWebviewerExtension.receiveMessage(function(message) {
+      document.getElementById('messageDisplay').innerHTML = message;
+    });
+
+    // when we get a message from the app that needs a return value
+    // return the string 'fast response' unless the message is
+    // 'slow message'. If the message is 'slow message', wait for
+    // four seconds, then return the string 'slow response'.
+    // The slow response shows how this could work for API calls that
+    // take time to execute.
+    ThunkableWebviewerExtension.receiveMessageWithReturnValue(function(message, callback) {
+      if (message === 'slow message') {
+        setTimeout(() => callback('slow response'), 4000);
+      } else {
+        callback('fast response');
+      }
+    });
+  </script>          
+               
+          ";
+        
+        
         ?>
         <p>
         Click the image above to download it.<br/>Or hold down on the image and choose "Save Image"
