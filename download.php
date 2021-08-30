@@ -16,7 +16,18 @@
         if(isset($_GET["i"]))
           echo "<a href='". $url ."' download='wc-vaxsquad-profile'><img src='". $url ."' /></a>";
         else
-          header("Redirect: index.php");              
+          header("Redirect: index.php");
+        
+        if(1+1 == 2){ 
+        echo "     <script type="text/javascript">
+    // when the button is clicked, send a message to the app
+    document.getElementById('download').onclick = function() {
+      ThunkableWebviewerExtension.postMessage('hello world 2');
+    }
+  </script>"; 
+    } 
+        
+        
         ?>
         <p>
         Click the image above to download it.<br/>Or hold down on the image and choose "Save Image"
@@ -29,13 +40,6 @@
         ?>
       </div>
     </div>
-    
-     <script type="text/javascript">
-    // when the button is clicked, send a message to the app
-    document.getElementById('download').onclick = function() {
-      ThunkableWebviewerExtension.postMessage('hello world');
-    }
-  </script>
-    
+       
   </body>
 </html>
