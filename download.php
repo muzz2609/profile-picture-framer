@@ -38,12 +38,13 @@
        echo "var imageurl ='". $url ."';";
    ?>
 
+   let imageurl2 = 'https://vaxsquad.azurewebsites.net/' + imageurl
+
     // when the button is clicked, send a message to the app
     document.getElementById('download').onclick = function() {
-      ThunkableWebviewerExtension.postMessage(imageurl);
+      ThunkableWebviewerExtension.postMessage(imageurl2);
     }
   </script>
-    
     
   </body>
 </html>
