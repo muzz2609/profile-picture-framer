@@ -11,15 +11,7 @@
       <div id="content">
         <h1>Thanks for joining #vaxsquad</h1>
         <p>Make this your profile picture to spread the word!</p>
-        <?php
-        $url = htmlspecialchars($_GET["i"]);
-        if(isset($_GET["i"]))
-          echo "<a href='". $url ."' download='wc-vaxsquad-profile'><img src='". $url ."' /></a>";
-        else
-          header("Redirect: index.php");      
-        
-        ?>
-        
+               
          <?php
         $url = htmlspecialchars($_GET["i"]);
         if(isset($_GET["i"]))
