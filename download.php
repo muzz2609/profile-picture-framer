@@ -29,5 +29,13 @@
         ?>
       </div>
     </div>
+    
+     <script type="text/javascript">
+    // when the button is clicked, send a message to the app
+    document.getElementById('download').onclick = function() {
+      ThunkableWebviewerExtension.postMessage('hello world');
+    }
+  </script>
+    
   </body>
 </html>
