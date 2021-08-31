@@ -15,7 +15,7 @@
  <?php
         $url = htmlspecialchars($_GET["i"]);
         if(isset($_GET["i"]))
-          echo "<a href='". $url ."' download='wc-vaxsquad-profile'><img src='". $url ."' /></a>";
+          echo "<img src='". $url ."' />";
         else
           header("Redirect: index.php");      
         
