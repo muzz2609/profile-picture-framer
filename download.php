@@ -41,7 +41,17 @@
     document.getElementById('download').onclick = function() {
       ThunkableWebviewerExtension.postMessage(imageurl2);
     }
-  </script>
+      
+      
+      
+    const url = "https://api.cloudinary.com/v1_1/dw8rf708f/image/upload";
+    fetch(url, {
+      method: "POST",
+      body: imageurl2
+    })
+     
+    
+    </script>
     
   </body>
 </html>
