@@ -10,7 +10,7 @@
     <div id="wrapper">
       <div id="content">
         <h1>Thanks for joining #vaxsquad</h1>
-        <p>Make this your profile picture to spread the word!</p>
+        <p>Make this your profile picture and share to spread the word!</p>
                
  <?php
         $url = htmlspecialchars($_GET["i"]);
@@ -22,10 +22,7 @@
         ?>
                  
         <p>
-        Click the image above to download it.<br/>Or hold down on the image and choose "Save Image"
-        </p>
-        <p>
-          <a href="index.php"><button id="download">Create Another Vaccine Profile Picture!</button></a>
+          <a href="index.php"><button id="download">Share/Save your Vaccine Profile Picture!</button></a>
         </p>
         <?php
         require_once __DIR__ . "/footer.php";
