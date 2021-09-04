@@ -25,7 +25,7 @@ function makeDP($sourcePath, $design = 0){
   imagealphablending($croppedFG, false);
   imagesavealpha($croppedFG, true);
 
-  imagecopyresized($croppedFG, $fg, 0, 0, 0, 0, $width, $height, 300, 300);
+  imagecopyresized($croppedFG, $fg, 0, 0, 0, 0, $width, $height, 400, 400);
 
   // Start merging
   $out = imagecreatetruecolor($width, $height);
