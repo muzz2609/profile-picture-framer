@@ -91,6 +91,10 @@ html, body{
     background-color: #00000026;;
 }
 
+input[type="file"] {
+    display: none;
+}
+
 #comments{
   margin: 20px;
 }
