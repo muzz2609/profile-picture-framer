@@ -18,6 +18,9 @@
         <p>Create your own vaccine meme!</p>
                 <h2>Step 1: Upload your vaccine selfie</h2>
         <input type="file" name="file" onchange="onFileChange(this)" id="upload">
+        
+        <button onclick="myFunction()">Next</button>
+        
           <div id="Step_2+3">       
         <h2>Step 2: Choose your Design</h2>
         <div id="designs">
@@ -70,5 +73,15 @@
         callback('fast response');
       }
     });
+  
+  function myFunction() {
+  var x = document.getElementById("Step_2+3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+  
   </script>
 </html>
