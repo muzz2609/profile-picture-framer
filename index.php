@@ -23,8 +23,6 @@
   <i class="fa fa-camera "></i> Click here to upload your vaccine selfie
 </label>
 <input id="file-upload" type="file" type="file" name="file" onchange="onFileChange(this)" />
-
-   <input type="file" name="file" onchange="onFileChange(this)">
                         
         <button onclick="myFunction()">Next</button>
         
