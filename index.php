@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/croppie.css" rel="stylesheet" async="async" />
     <link href="css/style.css" rel="stylesheet" async="async" />
-    <link rel="stylesheet" href="...css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://github.com/muzz2609/profile-picture-framer/blob/master/css/font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="js/croppie.min.js" async="async"></script>
     <script src="js/app.js" async="async"></script>
