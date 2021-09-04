@@ -18,6 +18,7 @@
         <p>Create your own vaccine meme!</p>
                 <h2>Step 1: Upload your vaccine selfie</h2>
         <input type="file" name="file" onchange="onFileChange(this)" id="upload">
+          <div id="Step_2+3">       
         <h2>Step 2: Choose your Design</h2>
         <div id="designs">
           <img class="design active" src="frames/frame-0.png" data-design="0" />
@@ -41,6 +42,7 @@
         <?php
         require_once __DIR__ . "/footer.php";
         ?>
+        </div>
       </div>
     </div>
   </body>
