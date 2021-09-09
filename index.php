@@ -11,6 +11,7 @@
     <script src="js/app.js" async="async"></script>
     <script src="js/fb.js" async="async"></script>
     <script src="https://thunkable.github.io/webviewer-extension/thunkableWebviewerExtension.js" type="text/javascript"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q0MHQV6TJE"></script>
   </head>
   <body>
     <div id="wrapper">
@@ -89,6 +90,12 @@
     x.style.display = "none";
   }
 }
+  
+    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q0MHQV6TJE');
   
   </script>
 </html>
