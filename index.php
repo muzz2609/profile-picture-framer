@@ -78,15 +78,6 @@
       }
     });
   
-  function myFunction() {
-  var x = document.getElementById("Step_2+3");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-  
     window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
