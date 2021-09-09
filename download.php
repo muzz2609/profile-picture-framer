@@ -24,6 +24,12 @@
         <p>
           <a href="index.php"><button id="download">Share/Save your Vaccine Profile Picture!</button></a>
         </p>
+       
+        <div id="retry">
+    <p>Don't see your meme? Click <a href="https://vaxsquad.azurewebsites.net/index.php" download>here</a> to try again.</p>
+        </div>
+        
+                
         <?php
         require_once __DIR__ . "/footer.php";
         ?>
